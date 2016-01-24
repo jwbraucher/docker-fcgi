@@ -2,7 +2,7 @@
 
 This [braucher/fcgi](https://hub.docker.com/r/braucher/fcgi/) docker image provides a
 very simple http mod\_proxy\_fcgi application container based off of 
-[httpd:2.4](https://hub.docker.com/r/_/httpd/)
+[httpd](https://hub.docker.com/r/_/httpd/)
 
 ## Usage - Environment Variables
 
