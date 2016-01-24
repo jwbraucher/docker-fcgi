@@ -16,7 +16,7 @@ FILES_MATCH=\.php$
 ```
 
 See the 
-[sample-project branch](https://github.com/jwbraucher/docker-fcgi/tree/sample-project)
+[sample-project branch](https://github.com/jwbraucher/docker-fcgi/blob/sample-project/docker-compose.yml)
 for an example of how to use this image with docker-compose.
 
 ## Development
