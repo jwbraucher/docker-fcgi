@@ -1,3 +1,8 @@
+# braucher/fcgi 1.0.1
+
+## Features
+* added ```FILES_MATCH```: what files to proxy to backend container
+
 # braucher/fcgi 1.0.0
 
 ## Features
