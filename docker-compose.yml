@@ -1,0 +1,19 @@
+fcgi:
+  image: "${app}"
+  ports:
+    - '80:80'
+    - '443:443'
+  links:
+    - 'fcgi-php'
+  volumes:
+    - './volumes/app:/var/www/app:ro'
+  environment:
+    PROXY_TARGET: "${app}-php:9000"
+    DOCUMENT_ROOT: '/var/www/app'
+    DIRECTORY_INDEX: 'index.php'
+fcgi-php:
+  image: 'braucher/php'
+  ports:
+    - '9000:9000'
+  volumes:
+    - './volumes/app:/var/www/app'
