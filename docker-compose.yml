@@ -1,5 +1,5 @@
 fcgi:
-  image: "${app}"
+  image: braucher/fcgi
   ports:
     - '80:80'
     - '443:443'
