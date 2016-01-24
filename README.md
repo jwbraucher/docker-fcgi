@@ -6,7 +6,7 @@ very simple http mod\_proxy\_fcgi application container based off of
 
 ## Usage - Environment Variables
 
-\# This Docker image is configured via three environment variables:  
+\# This Docker image is configured via the following environment variables:  
 
 ```
 PROXY_TARGET=app:9000  
