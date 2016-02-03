@@ -1,0 +1,7 @@
+#!/bin/bash -ex
+# vim: set filetype=sh :
+
+# This script starts the app
+
+mkdir -p ${document_root}
+httpd-foreground

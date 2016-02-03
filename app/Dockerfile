@@ -10,3 +10,7 @@ RUN apt-get update && apt-get install -y vim less
 RUN echo "Include conf/fcgi.conf" >> /usr/local/apache2/conf/httpd.conf
 COPY ./fcgi.conf /usr/local/apache2/conf/
 
+COPY ./app* /
+ENTRYPOINT ["/app"]
+CMD ["start"]
+
