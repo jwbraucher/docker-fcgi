@@ -1,4 +1,4 @@
-# braucher/fcgi
+# braucher/fcgi 1.1.0
 
 This [braucher/fcgi](https://hub.docker.com/r/braucher/fcgi/) docker image provides a
 very simple http mod\_proxy\_fcgi application container based off of 
