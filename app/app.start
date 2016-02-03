@@ -3,5 +3,5 @@
 
 # This script starts the app
 
-mkdir -p ${document_root}
+mkdir -p ${app_home}
 httpd-foreground
