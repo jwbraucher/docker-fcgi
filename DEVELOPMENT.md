@@ -20,12 +20,12 @@ make clean
 make
 
 # Rebuild foo
-make rebuild IMAGE=foo
+make rebuild service=foo
 
 # Start/Stop/Restart services
 make start
-make stop SERVICE="foo foo-db"
-make cli SERVICE=foo
+make stop service="foo foo-db"
+make cli service=foo
 
 ## Contributing
 
