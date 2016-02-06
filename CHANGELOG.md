@@ -1,3 +1,8 @@
+# braucher/fcgi 1.1.0
+
+## Features
+* Run ‘mkdir -p’ on DocumentRoot so httpd will start
+
 # braucher/fcgi 1.0.1
 
 ## Features
