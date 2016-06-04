@@ -1,3 +1,8 @@
+# braucher/fcgi 1.2.0
+
+## Features
+* Added SCHEME environment variable
+
 # braucher/fcgi 1.1.0
 
 ## Features

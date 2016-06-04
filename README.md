@@ -1,4 +1,4 @@
-# braucher/fcgi 1.1.0
+# braucher/fcgi 1.2.0
 
 This [braucher/fcgi](https://hub.docker.com/r/braucher/fcgi/) docker image provides a
 very simple http mod\_proxy\_fcgi application container based off of 
@@ -13,6 +13,7 @@ PROXY_TARGET=app:9000
 DOCUMENT_ROOT=/var/www/app  
 DIRECTORY_INDEX=index.php  
 FILES_MATCH=\.php$
+SCHEME=fcgi
 ```
 
 See the 

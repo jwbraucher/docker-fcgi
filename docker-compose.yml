@@ -13,6 +13,7 @@ fcgi:
     DOCUMENT_ROOT: '/var/www/app'
     DIRECTORY_INDEX: 'index.php'
     FILES_MATCH: '\.php$$'
+    SCHEME: 'fcgi'
 fcgi-app:
   image: 'braucher/php'
   ports:
